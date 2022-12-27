@@ -44,7 +44,7 @@ class Playlist():
         self.nome = nome
         self._programas = programas
 
-    def __getitem__(self, item)
+    def __getitem__(self, item):
         return self._programas[item]
 
     def __len__(self):
