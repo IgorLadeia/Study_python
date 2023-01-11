@@ -31,7 +31,7 @@ p.sleep(2)
 p.typewrite('eu sou lindo')
 p.sleep(5)
 valor = p.getActiveWindow() #vai identificar qual é a janela aberta no momento
-valor.close()
+ # type: ignorevalor.close()
 p.sleep(2)
 p.press('right')
 p.sleep(2)
